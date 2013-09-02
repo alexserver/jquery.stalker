@@ -1,4 +1,8 @@
-
+/**
+ * jQuery.stalker plugin
+ * jQuery plugin to analyze DOM events.
+ * @author : Alejandro Gomez <alexserverone@gmail.com>
+ */
 (function( $ ) {
     var stalkEvents = function(domObj, eventFilter) {
         var result = [];
